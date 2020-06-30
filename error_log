@@ -1,0 +1,8 @@
+[03-Feb-2020 04:06:57 UTC] PHP Warning:  Uncaught ErrorException: require(/var/www/html/mobile/routes/breadcrumbs.php): failed to open stream: No such file or directory in /home/hswqp80ak586/public_html/mobile.kesarigajj.com/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home/hswqp80ak586/public_html/mobile.kesarigajj.com/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/var/ww...', '/home/hswqp80ak...', 94, Array)
+#1 /home/hswqp80ak586/public_html/mobile.kesarigajj.com/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home/hswqp80ak586/public_html/mobile.kesarigajj.com/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home/hswqp80ak586/public_html/ in /home/hswqp80ak586/public_html/mobile.kesarigajj.com/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[03-Feb-2020 04:06:57 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required '/var/www/html/mobile/routes/breadcrumbs.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/hswqp80ak586/public_html/mobile.kesarigajj.com/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
